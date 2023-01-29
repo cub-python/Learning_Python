@@ -48,3 +48,21 @@ elif monthNumber == 3or monthNumber == 4 or monthNumber == 5:
 
 else:
     print('Упсс, вы ввели неправильную цифру. ')
+
+# Вложенное ветвление
+
+command = input('Введите команду: ')
+if command == 'сказка':
+    print('Жили-были бабушка и дедушка')
+    print('Спокойной ночи!')
+else:
+    if command == 'а        некдот':
+        print('Подскользнулся упал, очнулся гипс')
+    else:
+        if command == 'сoвет':
+            print('Здоровья надо беречь смолоду')
+        else:
+            if command == 'афоризм':
+                print('bdi')
+            else:
+                print('ne ponyatno chto hotite')
