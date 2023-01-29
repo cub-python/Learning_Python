@@ -1,29 +1,29 @@
 # Программа выводит по выбранной команде итог, choice - vybor
 help = '*', '/', "+", '-'
-comand = input('Пожалуйста введите команду: ')
+command = input('Пожалуйста введите команду: ')
 
-if comand == 'help':
+if command == 'help':
     print('help')
-elif comand == '*':
+elif command == '*':
     num1 = float(input('Введите 1-го множителя: '))
     num2 = float(input('Введите 2-го множителя: '))
     result = (num1 * num2)
     print( num1,'*', num2, '=', result)
 
-elif comand == '/':
+elif command == '/':
     num1 = float(input('Введите делимое: '))
     num2 = float(input('Введите делитель: '))
     result = (num1 / num2)
     print(num1, '/', num2, '=', result)
 
-elif comand == '+':
+elif command == '+':
     num1 = float(input('Введите 1-е слагаемое: '))
     num2 = float(input('Введите 2-е слагаемое'))
     result = (num1 + num2)
     print('Сумма', num1, '+', num2, '=', result)
 
 
-elif comand == '-':
+elif command == '-':
     num1 = float(input('Введите уменьшаемое: '))
     num2 = float(input('Введите вычитаемое: '))
     result = (num1 - num2)
